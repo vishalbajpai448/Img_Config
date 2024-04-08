@@ -1,0 +1,22 @@
+/* image-table.component.css */
+.custom-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .custom-header,
+  .custom-cell {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .custom-header {
+    background-color: #db5d5d;
+  }
+
+  .custom-cell
+  {
+    background-color: rgb(159, 159, 235);
+  }
+  

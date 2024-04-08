@@ -3,14 +3,22 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatTableModule} from '@angular/material/table';
+import { ImgDisplayComponent } from './img-display/img-display.component';
+import { ImageTableComponent } from './image-table/image-table.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ImgDisplayComponent,
+    ImageTableComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
